@@ -2,6 +2,7 @@
 # Run as root
 # Author: Neelima Krishnan
 # Date: 10-06-2022
+# ./install_guest.sh ubuntu-20.04
 
 bash proxy.sh
 apt -y install libguestfs-tools
