@@ -10,7 +10,7 @@ set -e
 
 if [ -z $1 ];then
 	echo "No OS-version passed, installing default -> ubuntu-18.04"
-	OS_VER=ubuntu-20.04
+	
 else
 	OS_VER=$1
 fi
